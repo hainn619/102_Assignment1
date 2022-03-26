@@ -1,0 +1,80 @@
+body{
+    font-family: 'roboto', sans-serif;
+    background-color: black;
+    color: white;
+}
+.nav{
+    width: 100%;
+    height: 49px;
+    padding: 0px 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center    ;
+}
+.nav .nav-left{
+width: 30%;
+justify-content: flex-start;
+
+}
+.nav .menu{
+width: 70%;
+justify-content: flex-end;
+display: flex;
+
+}
+.nav .menu a{
+color: black;
+justify-content: flex-end;
+text-align: right;
+margin-right: 16px;
+padding: 2px 3px;
+}
+header{
+    text-align: center;
+    margin: 0 10px;
+}
+header h1{
+    font-size: 54px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+header p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+main
+{
+    margin-top: 340px;
+    width: 100%;
+    margin: 0 10px;
+}
+main .main-news
+{
+    background-image: url("img/art1.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: flex-end;
+    padding: 20px;
+    min-height: 423px;
+}
+main .main-news h2{
+
+}
+main .main-news h4 {
+    font-size: 40px;
+    font-weight: 400;
+}
+main .main-bottom{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+main .main-bottom div{
+width: 49%;
+}
